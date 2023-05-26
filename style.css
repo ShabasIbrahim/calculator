@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+#head{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+span{
+    color:  rgb(255, 191, 0);
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.container {
+    height: 800px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  position: relative;
+  }
+
+
+
+.calcbody{
+    width: 358px;
+    height: 550px;
+    background-color: black;
+    /* margin-left: 540px; */
+    margin: auto;
+    /* margin-top: 70px; */
+   border-radius: 27px;
+   box-shadow: 2px 2px 20px 5px rgb(0, 0, 0,0.5);
+   position: relative;
+}
+
+
+.screen{
+
+height: 100px;
+width: 299px;
+/* width: 83%; */
+border: none;
+border-radius: 12px;
+background: rgb(60, 56, 56);
+color: white;
+font-size: 30px;
+text-align: end;
+margin-left: 28px;
+   margin-top: 50px;
+}
+
+
+button{
+    height: 58px;
+    width: 59px;
+    border-radius: 80px;
+    margin-left: 22px;
+    margin-top: 32px;
+    background-color: #5a5a5a;
+    color: white;
+    border: 1px ;
+    font-size: x-large;
+    
+}
+
+button:hover:not(.symbol) {
+    background: rgb(130, 127, 122);
+  }
+
+  .symbol {
+    background: rgb(255, 191, 0);
+    color: white;
+  }
+
+.row2{
+
+    margin-top: -20px;
+}
