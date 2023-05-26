@@ -42,7 +42,7 @@ span{
 
 height: 100px;
 /* width: 299px; */
-width: 83%;
+max-width: 83%;
 border: none;
 border-radius: 12px;
 background: rgb(60, 56, 56);
